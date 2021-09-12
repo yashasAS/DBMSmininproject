@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>form</title><style>body{background: lightblue;}
+  form{
+  padding-top:100px;
+  text-align: center;
+  font-size:20px;
+  }
+  div.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: lightblue;
+  color:lightblue;
+  text-align: center;
+  }
+
+
+ div.sep{
+  float:left;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+
+  border:lightblue; round 2px;
+  margin-left:200px;
+  text-align: center;
+   background:lightblue;
+
+ }
+ div.sep:hover{
+  border: green;
+ }
+#submit{
+      height:40px;
+      width: 90px;
+  }
+</style>
+
+
+</head>
+<body>
+<form action="book.php" method="post">
+
+<div class="sep1">
+</div>
+  <div class="sep" >
+   <h1> Welcome to Airport    </h1>
+   <h1> Database Management </h1>
+   <br><br>
+--- Get Advance booking for Waiting Lounges at your Airport in Reasonable prices ---<br><br>
+
+Enter the AirPort ID:
+<input type="text" name="aid" required>
+<br>
+Enter the No of seats to be booked:
+<input type="text" name="seats" required>
+<br><br>
+ Are you sure you want to book your seats<br>
+<input type="radio" name="confirm" value="1" checked> YES <br>
+<input type="radio" name="confirm" value="0" checked> NO <br>
+
+
+
+
+
+<input type="submit" id="submit" value="submit">
+
+
+
+</div>
+</form>
+
+
+</body>
+</html>
