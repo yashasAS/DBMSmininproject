@@ -1,2 +1,2 @@
-# DBMSmininproject
+# DBMSminiproject
 AIRPORT MANAGEMENT SYSTEM that guide passengers to their desired shops
